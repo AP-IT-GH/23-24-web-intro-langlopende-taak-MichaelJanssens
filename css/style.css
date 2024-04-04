@@ -1,0 +1,16 @@
+.figure:hover {
+    background-color: rgb(231, 220, 220);
+    opacity: 0.5;
+    }
+
+    .background {
+        background-color: #3C454D; /* Replace with your desired color */
+      }
+
+    .backgroundtest {
+        background: linear-gradient(to bottom,#3C454D, #595959 );  /* Replace with your desired color */
+      }     
+      
+      .textkleur {
+        color: #111010; /* Replace with your desired color */
+      }     
