@@ -14,3 +14,9 @@
       .textkleur {
         color: #111010; /* Replace with your desired color */
       }     
+
+      .round {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+      }
