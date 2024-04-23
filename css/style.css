@@ -1,22 +1,43 @@
-.figure:hover {
+/* .figure:hover {
     background-color: rgb(231, 220, 220);
     opacity: 0.5;
-    }
+    } */
 
     .background {
-        background-color: #3C454D; /* Replace with your desired color */
-      }
-
-    .backgroundtest {
         background: linear-gradient(to bottom,#3C454D, #595959 );  /* Replace with your desired color */
       }     
       
       .textkleur {
-        color: #111010; /* Replace with your desired color */
+        color: #D3D3D3; /* Replace with your desired color */
       }     
 
-      .round {
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
+      .youtube {
+        color: #FF0000; /* Replace with your desired color */
+      }  
+
+      .instagram {
+        color: #C13584; /* Replace with your desired color */
+      }  
+      .facebook {
+        color: #898F9C; /* Replace with your desired color */
       }
+
+      .whatsapp {
+        color: #25D366; /* Replace with your desired color */
+      } 
+
+      .twitter {
+        color: #14171A; /* Replace with your desired color */
+      }  
+
+      .messenger {
+        color: #00B2FF; /* Replace with your desired color */
+      } 
+
+      .phone {
+        color: #3A3A3A; /* Replace with your desired color */
+      } 
+      
+
+      
+      
