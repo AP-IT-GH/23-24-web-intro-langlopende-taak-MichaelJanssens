@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dcim</title>
+    <title>locations</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
@@ -15,6 +15,15 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="css/mapStyleSmall.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/mapNY.js" defer></script>
+    <script src="js/mapWashingtonDC.js" defer></script>
+    <script src="js/mapSydney.js" defer></script>
+    <script src="js/mapParijs.js" defer></script>
+    <script src="js/mapBerlijn.js" defer></script>
+    <script src="js/mapAmsterdam.js" defer></script>
   </head>
 
   <body class="p-3 m-0 border-0 bd-example background textkleur">
@@ -35,7 +44,7 @@
               services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="location.html">locaties</a></li>
+              <li><a class="dropdown-item" href="dcim.html">dcim</a></li>
               <li><a class="dropdown-item" href="support.html">support</a></li>
               <li><a class="dropdown-item" href="security.html">security</a></li>
                 <li><a class="dropdown-item" href="enviroment.html">enviroment</a></li>
@@ -54,7 +63,7 @@
     </nav>
 
     <header class="row m-5">
-      <h1 class="display-2 text-center fs-8">DCIM</h1>
+      <h1 class="display-2 text-center fs-8">Locaties</h1>
     </header>
 
     <div class="container-sm">
@@ -65,47 +74,75 @@
               <hr>
 
               <article class=" col-12 col-sm-6 col-md-4 pt-3">
-                <a href="#" rel="noopener">
-                  <figure class="figure">
-                    <img src="./assets/controlroom.jpg" class="img-fluid" alt="foto van dcim"
-                      title="DCIM">
-                    <figcaption class="h6 m-2 textkleur">controle centrum</figcaption>
-                  </figure>
-                </a>
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="NY"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
               </article>
               <article class=" col-12 col-sm-6 col-md-8">
-                <h2>What is DCIM?</h2>
-                <p>
-                  DCIM, an acronym for Data Center Infrastructure Management, refers to a set of tools, processes, and methodologies designed to provide a holistic view of a data center's physical and IT infrastructure. It encompasses a wide range of functionalities, including asset management, capacity planning, energy management, environmental monitoring, and more. Essentially, DCIM solutions offer a unified platform for monitoring, managing, and optimizing all aspects of data center operations.</p>
-              </article>
-
-              <article class=" col-12 col-sm-6 col-md-8">
-                <h2>Challenges and Considerations</h2>
-                <p>While DCIM offers numerous benefits, implementing and managing a DCIM solution comes with its own set of challenges. These include the complexity of integrating disparate systems and technologies, the need for ongoing maintenance and updates, and the requirement for skilled personnel to operate and interpret the data provided by DCIM tools. Additionally, organizations must carefully consider factors such as scalability, vendor support, and interoperability when selecting a DCIM solution to ensure it aligns with their current and future needs.</p>
-              </article>
-              <article class=" col-12 col-sm-6 col-md-4 pt-3">
-                <a href="#" rel="noopener">
-                  <figure class="figure"><img src="./assets/controlroom2.jpg" class="img-fluid" alt="foto van control room"
-                      title="ControlRoom">
-                    <figcaption class="h6 m-2 textkleur">control room</figcaption>
-                  </figure>
-                </a>
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
               </article>
 
               <article class=" col-12 col-sm-6 col-md-4 pt-3">
-                <a href="#" rel="noopener">
-                  <figure class="figure">
-                    <img src="./assets/controlroom3.jpg" class="img-fluid" alt="foto van control room"
-                      title="ControlRoom">
-                    <figcaption class="h6 m-2 textkleur">control room</figcaption>
-                  </figure>
-                </a>
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="WashingtonDC"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
               </article>
               <article class=" col-12 col-sm-6 col-md-8">
-                <h2>Looking Ahead</h2>
-                <p>
-                  As data center infrastructure continues to evolve and become increasingly complex, the role of DCIM in managing and optimizing data center operations will become even more critical. With advancements in technology such as artificial intelligence, machine learning, and the Internet of Things (IoT), DCIM solutions are poised to become more intelligent, predictive, and automated, empowering organizations to achieve greater efficiency, reliability, and agility in their data center environments. By embracing DCIM as a strategic asset, organizations can navigate the complexities of modern data center management and unlock new opportunities for innovation and growth in the digital era.
-                </p>
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
+              </article>
+
+              <article class=" col-12 col-sm-6 col-md-4 pt-3">
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="Sydney"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
+              </article>
+              <article class=" col-12 col-sm-6 col-md-8">
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
+              </article>
+
+              <article class=" col-12 col-sm-6 col-md-4 pt-3">
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="Berlijn"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
+              </article>
+              <article class=" col-12 col-sm-6 col-md-8">
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
+              </article>
+
+              <article class=" col-12 col-sm-6 col-md-4 pt-3">
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="Parijs"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
+              </article>
+              <article class=" col-12 col-sm-6 col-md-8">
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
+              </article>
+
+              <article class=" col-12 col-sm-6 col-md-4 pt-3">
+                <div class="container">
+                  <div class="row">
+                    <main class="col-md-12 pe-3">
+                      <section id="Amsterdam"  class="row">
+                        <div id="apSmall" class="col-12 mb-3"></div>
+              </article>
+              <article class=" col-12 col-sm-6 col-md-8">
+                <h2>AP Datacenter NY</h2>
+                <p> City Hall Park,<br> New York, NY 10007,<br> Verenigde Staten</p>
               </article>
             </section>
             <hr>
